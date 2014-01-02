@@ -1,0 +1,72 @@
+{
+   "abstract" : "Perl wrapper for EpubCheck",
+   "author" : [
+      "pawa <pawa@pawafuru.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.11.0",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "EBook-EPUB-Check",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "File::ShareDir" : "1.00",
+            "IPC::Run3" : "0.046",
+            "perl" : "5.008001"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Which" : "1.09",
+            "Test::Fatal" : "0",
+            "Test::More" : "0.99",
+            "Test::Warn" : "0"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/pawa-/EBook-EPUB-Check/issues"
+      },
+      "homepage" : "https://github.com/pawa-/EBook-EPUB-Check",
+      "repository" : {
+         "url" : "git://github.com/pawa-/EBook-EPUB-Check",
+         "web" : "https://github.com/pawa-/EBook-EPUB-Check"
+      }
+   },
+   "version" : "0.00_01"
+}
