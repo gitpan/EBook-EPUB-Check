@@ -36,4 +36,4 @@ resources:
   bugtracker: https://github.com/pawa-/EBook-EPUB-Check/issues
   homepage: https://github.com/pawa-/EBook-EPUB-Check
   repository: git://github.com/pawa-/EBook-EPUB-Check
-version: 0.00_01
+version: 0.00_02
