@@ -9,7 +9,7 @@ use File::ShareDir ();
 use IPC::Run3 ();
 use EBook::EPUB::Check::Result ();
 
-our $VERSION   = "0.00_02";
+our $VERSION   = "0.01";
 our @EXPORT    = qw(epubcheck);
 our @EXPORT_OK = qw();
 
@@ -33,7 +33,7 @@ sub epubcheck
     my $out;
     my @cmd = ('java', '-jar', $jar, $epub);
 
-    IPC::Run3::run3(\@cmd, \undef, \$out, \$out);
+    IPC::Run3::run3(\@cmd, undef, \$out, \$out);
 
     return EBook::EPUB::Check::Result->new(\$out);
 }

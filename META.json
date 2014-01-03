@@ -30,6 +30,7 @@
          "requires" : {
             "CPAN::Meta" : "0",
             "CPAN::Meta::Prereqs" : "0",
+            "File::Which" : "1.09",
             "Module::Build" : "0.38"
          }
       },
@@ -43,21 +44,32 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "0",
+            "Exporter" : "0",
             "File::ShareDir" : "1.00",
             "IPC::Run3" : "0.046",
+            "parent" : "0",
             "perl" : "5.008001"
          }
       },
       "test" : {
          "requires" : {
-            "File::Which" : "1.09",
             "Test::Fatal" : "0",
             "Test::More" : "0.99",
             "Test::Warn" : "0"
          }
       }
    },
-   "release_status" : "unstable",
+   "provides" : {
+      "EBook::EPUB::Check" : {
+         "file" : "lib/EBook/EPUB/Check.pm",
+         "version" : "0.01"
+      },
+      "EBook::EPUB::Check::Result" : {
+         "file" : "lib/EBook/EPUB/Check/Result.pm"
+      }
+   },
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/pawa-/EBook-EPUB-Check/issues"
@@ -68,5 +80,5 @@
          "web" : "https://github.com/pawa-/EBook-EPUB-Check"
       }
    },
-   "version" : "0.00_02"
+   "version" : "0.01"
 }
