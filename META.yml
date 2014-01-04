@@ -3,6 +3,7 @@ abstract: 'Perl wrapper for EpubCheck'
 author:
   - 'pawa <pawa@pawafuru.com>'
 build_requires:
+  Probe::Perl: 0.03
   Test::Fatal: 0
   Test::More: 0.99
   Test::Warn: 0
@@ -31,7 +32,7 @@ no_index:
 provides:
   EBook::EPUB::Check:
     file: lib/EBook/EPUB/Check.pm
-    version: 0.01
+    version: 0.02
   EBook::EPUB::Check::Result:
     file: lib/EBook/EPUB/Check/Result.pm
 requires:
@@ -45,4 +46,4 @@ resources:
   bugtracker: https://github.com/pawa-/EBook-EPUB-Check/issues
   homepage: https://github.com/pawa-/EBook-EPUB-Check
   repository: git://github.com/pawa-/EBook-EPUB-Check
-version: 0.01
+version: 0.02

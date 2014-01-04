@@ -3,6 +3,7 @@ Changes
 LICENSE
 META.json
 README.md
+bin/epubcheck
 builder/MyBuilder.pm
 cpanfile
 epub/invalid.epub
