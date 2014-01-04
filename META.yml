@@ -32,7 +32,7 @@ no_index:
 provides:
   EBook::EPUB::Check:
     file: lib/EBook/EPUB/Check.pm
-    version: 0.02
+    version: 0.03
   EBook::EPUB::Check::Result:
     file: lib/EBook/EPUB/Check/Result.pm
 requires:
@@ -46,4 +46,4 @@ resources:
   bugtracker: https://github.com/pawa-/EBook-EPUB-Check/issues
   homepage: https://github.com/pawa-/EBook-EPUB-Check
   repository: git://github.com/pawa-/EBook-EPUB-Check
-version: 0.02
+version: 0.03
